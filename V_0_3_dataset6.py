@@ -119,14 +119,14 @@ class TestLayout(Widget):
     def clear(self):
         self.labelsn.text = ''
         self.labelerrorpoint.text = ''
-        self.img1.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/background_pic/b.jpg'
-        self.img2.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/background_pic/b.jpg'
-        self.img3.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/background_pic/b.jpg'
-        self.img4.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/background_pic/b.jpg'
-        self.img5.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/background_pic/b.jpg'
-        self.img6.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/background_pic/b.jpg'
-        self.img7.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/background_pic/b.jpg'
-        self.img8.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/background_pic/b.jpg'
+        self.img1.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/background_pic/b.jpg'
+        self.img2.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/background_pic/b.jpg'
+        self.img3.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/background_pic/b.jpg'
+        self.img4.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/background_pic/b.jpg'
+        self.img5.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/background_pic/b.jpg'
+        self.img6.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/background_pic/b.jpg'
+        self.img7.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/background_pic/b.jpg'
+        self.img8.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/background_pic/b.jpg'
         pass
 
     def wrong_act(self):
@@ -141,14 +141,14 @@ class TestLayout(Widget):
         # self.label4.text = 'OK'
         # self.label5.text = 'OK'
         # self.label6.text = 'OK'
-        self.img1.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/background_pic/w.jpg'
-        self.img2.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/background_pic/w.jpg'
-        self.img3.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/background_pic/w.jpg'
-        self.img4.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/background_pic/w.jpg'
-        self.img5.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/background_pic/w.jpg'
-        self.img6.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/background_pic/w.jpg'
-        self.img7.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/background_pic/w.jpg'
-        self.img8.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/background_pic/w.jpg'
+        self.img1.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/background_pic/w.jpg'
+        self.img2.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/background_pic/w.jpg'
+        self.img3.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/background_pic/w.jpg'
+        self.img4.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/background_pic/w.jpg'
+        self.img5.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/background_pic/w.jpg'
+        self.img6.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/background_pic/w.jpg'
+        self.img7.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/background_pic/w.jpg'
+        self.img8.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/background_pic/w.jpg'
 
     def release_me(self):
         print('release')
@@ -161,13 +161,13 @@ class TestLayout(Widget):
         self.label7.text = '7'
         self.label8.text = '8'
         # take_pic_kivy()
-        self.img1.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/test_kivy/1.jpg'
-        self.img2.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/test_kivy/2.jpg'
-        self.img3.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/test1/69.jpg'
-        self.img4.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/test1/77.jpg'
-        self.img5.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/test1/96.jpg'
-        self.img6.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/test1/122.jpg'
-        self.img6.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/test1/122.jpg'
+        self.img1.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/test_kivy/1.jpg'
+        self.img2.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/test_kivy/2.jpg'
+        self.img3.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/test1/69.jpg'
+        self.img4.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/test1/77.jpg'
+        self.img5.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/test1/96.jpg'
+        self.img6.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/test1/122.jpg'
+        self.img6.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/test1/122.jpg'
         self.img1.reload()
         self.img2.reload()
 
@@ -240,14 +240,14 @@ class TestLayout(Widget):
                     str_error_names += error_names[i] + '\n'
                 self.labelerrorpoint.text = '偵測到的問題點:'
                 self.labelerror.text = str_error_names
-            self.img1.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/detect/1.jpg'
-            self.img2.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/detect/2.jpg'
-            self.img3.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/detect/3.jpg'
-            self.img4.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/detect/4.jpg'
-            self.img5.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/detect/5.jpg'
-            self.img6.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/detect/6.jpg'
-            self.img7.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/detect/7.jpg'
-            self.img8.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/detect/8.jpg'
+            self.img1.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/detect/1.jpg'
+            self.img2.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/detect/2.jpg'
+            self.img3.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/detect/3.jpg'
+            self.img4.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/detect/4.jpg'
+            self.img5.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/detect/5.jpg'
+            self.img6.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/detect/6.jpg'
+            self.img7.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/detect/7.jpg'
+            self.img8.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/detect/8.jpg'
             self.img1.reload()
             self.img2.reload()
             self.img3.reload()
@@ -337,14 +337,14 @@ class TestLayout(Widget):
             fan_sn = barcode_sn()
             self.labelsn.text = fan_sn
 
-            self.img1.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/test_kivy/1.jpg'
-            self.img2.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/test_kivy/2.jpg'
-            self.img3.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/test_kivy/3.jpg'
-            self.img4.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/test_kivy/4.jpg'
-            self.img5.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/test_kivy/5.jpg'
-            self.img6.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/test_kivy/6.jpg'
-            self.img7.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/test_kivy/7.jpg'
-            self.img8.source = 'C:/Users/Server/PycharmProjects/yolov5/dataset6/test_kivy/8.jpg'
+            self.img1.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/test_kivy/1.jpg'
+            self.img2.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/test_kivy/2.jpg'
+            self.img3.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/test_kivy/3.jpg'
+            self.img4.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/test_kivy/4.jpg'
+            self.img5.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/test_kivy/5.jpg'
+            self.img6.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/test_kivy/6.jpg'
+            self.img7.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/test_kivy/7.jpg'
+            self.img8.source = 'C:/Users/Server/PycharmProjects/yolov5_bestyield/dataset6/test_kivy/8.jpg'
             self.img1.reload()
             self.img2.reload()
             self.img3.reload()

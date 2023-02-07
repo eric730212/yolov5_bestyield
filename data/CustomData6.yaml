@@ -1,5 +1,5 @@
-train: C:\Users\Server\PycharmProjects\yolov5\dataset6\train.txt
-val: C:\Users\Server\PycharmProjects\yolov5\dataset6\val.txt
+train: C:\Users\Server\PycharmProjects\yolov5_bestyield\dataset6\train.txt
+val: C:\Users\Server\PycharmProjects\yolov5_bestyield\dataset6\val.txt
 
 # number of classes
 nc: 16

@@ -1,0 +1,168 @@
+<SimplePopup>
+    id:pop
+    size_hint: .4, .4
+    auto_dismiss: False
+    title: 'PASS!!'
+    Button:
+        text: 'PASS!!'
+        font_size:60
+        background_color:0,1,0,1
+        on_press: pop.dismiss()
+        on_press: app.get_running_app().root.clear()
+        on_press: app.get_running_app().root.save_pic()
+
+<SimplePopup2>
+    id:pop2
+    size_hint: .4, .4
+    auto_dismiss: False
+    title: 'Warning!!'
+    Button:
+        text: 'ReDo!!'
+        font_size:60
+        background_color:1,0,0,1
+        on_press: pop2.dismiss()
+
+<TestLayout>
+    label1:label1
+    label2:label2
+    label3:label3
+    label4:label4
+    label5:label5
+    label6:label6
+    labelsn:labelsn
+    img1:img1
+    img2:img2
+    img3:img3
+    img4:img4
+    img5:img5
+    img6:img6
+    spinner:spinner
+
+
+    GridLayout:
+        cols:4
+        rows:4
+        size: root.width, root.height
+        Label:
+            id:label1
+            text:'1'
+            size_hint_y:.2
+        Label:
+            id:label2
+            text:'2'
+            size_hint_y:.2
+        Label:
+            id:label3
+            text:'3'
+            size_hint_y:.2
+        GridLayout:
+            size_hint_y:.2
+            cols:2
+            Label:
+                text:'SN:'
+                size_hint_y:.2
+            Label:
+                id:labelsn
+                text:''
+                size_hint_y:.2
+            Label:
+                text:'xxxxxx'
+                size_hint_y:.2
+            Label:
+                text:'xxxxxx'
+                size_hint_y:.2
+            Label:
+                text:'xxxxxx'
+                size_hint_y:.2
+            Label:
+                text:'xxxxxx'
+                size_hint_y:.2
+
+
+        Image:
+            id:img1
+            source:'C:/Users/Server/PycharmProjects/yolov5/dataset2/background_pic/b.jpg'
+
+
+        Image:
+            id:img2
+            source:'C:/Users/Server/PycharmProjects/yolov5/dataset2/background_pic/b.jpg'
+
+
+        Image:
+            id:img3
+            source:'C:/Users/Server/PycharmProjects/yolov5/dataset2/background_pic/b.jpg'
+#        Label:
+#            text:'xxxxxx'
+        Button:
+            text:'Detect'
+            on_release:root.detect()
+#        Camera:
+#            id: camera
+##            resolution: (640, 480)
+#            play: True
+        Label:
+            id:label4
+            text:'4'
+            size_hint_y:.2
+        Label:
+            id:label5
+            text:'5'
+            size_hint_y:.2
+        Label:
+            id:label6
+            text:'6'
+            size_hint_y:.2
+#        Label:
+#            text:'xxxxxx'
+#            size_hint_y:.2
+        GridLayout:
+            size_hint_y:.2
+            rows:3
+            Label:
+                size_hint_y:.2
+                text:'test'
+            Spinner:
+                id:spinner
+                size_hint_y:.2
+                text:'Fan Type'
+                value:['Long','Median','Short']
+                on_text:root.spinner_clicked(spinner.text)
+
+#        Camera:
+#            capture: 1
+#            id: camera2
+#            resolution: (640, 480)
+#            play: True
+
+        Image:
+            id:img4
+            source:'C:/Users/Server/PycharmProjects/yolov5/dataset2/background_pic/b.jpg'
+
+
+        Image:
+            id:img5
+            source:'C:/Users/Server/PycharmProjects/yolov5/dataset2/background_pic/b.jpg'
+
+
+        Image:
+            id:img6
+            source:'C:/Users/Server/PycharmProjects/yolov5/dataset2/background_pic/b.jpg'
+
+        GridLayout:
+            cols:2
+            size_hint_y:.2
+
+            Button:
+                text:'拍照'
+                font_name:'中文'
+                size_hint_y:.2
+#                on_press:label1.color=1,0,0,1
+                on_press:root.click_me()
+                on_release:root.take_pic_kivy()
+
+#                on_release:label1.color=1,1,1,1
+            Button:
+                size_hint_y:.2
+                text:'Detect'
+                on_release:root.detect()

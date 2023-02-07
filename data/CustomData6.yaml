@@ -1,0 +1,15 @@
+train: C:\Users\Server\PycharmProjects\yolov5\dataset6\train.txt
+val: C:\Users\Server\PycharmProjects\yolov5\dataset6\val.txt
+
+# number of classes
+nc: 16
+
+# class names
+names: ["1_0","2_0","3_0","4_0","5_0","6_0","7_0","8_0",
+           "4_1","5_1",  #缺螺絲
+           "5_2","7_1",  #缺pannel螺絲
+           "2_1",        #connector沒接
+           "2_2",        #缺貼紙
+           "1_1",        #蜂巢裝反
+           "2_3"         #pannel裝反
+           ]

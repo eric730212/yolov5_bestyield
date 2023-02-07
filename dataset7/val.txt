@@ -1,0 +1,10 @@
+C:\Users\Server\PycharmProjects\yolov5\dataset6\images\0.jpg
+C:\Users\Server\PycharmProjects\yolov5\dataset6\images\18.jpg
+C:\Users\Server\PycharmProjects\yolov5\dataset6\images\20.jpg
+C:\Users\Server\PycharmProjects\yolov5\dataset6\images\44.jpg
+C:\Users\Server\PycharmProjects\yolov5\dataset6\images\48.jpg
+C:\Users\Server\PycharmProjects\yolov5\dataset6\images\52.jpg
+C:\Users\Server\PycharmProjects\yolov5\dataset6\images\58.jpg
+C:\Users\Server\PycharmProjects\yolov5\dataset6\images\59.jpg
+C:\Users\Server\PycharmProjects\yolov5\dataset6\images\67.jpg
+C:\Users\Server\PycharmProjects\yolov5\dataset6\images\73.jpg

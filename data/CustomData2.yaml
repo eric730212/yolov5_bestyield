@@ -1,0 +1,12 @@
+train: C:\Users\Server\PycharmProjects\yolov5\dataset2\train.txt
+val: C:\Users\Server\PycharmProjects\yolov5\dataset2\val.txt
+
+# number of classes
+nc: 17
+
+# class names
+names: ["1_0","2_0","3_0","4_0","5_0","6_0","7_0","8_0",
+           "1_1","6_1","8_1",
+           "3_1","4_1",
+           "6_2","8_2",
+           "6_3","8_3"]

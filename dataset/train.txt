@@ -1,0 +1,3 @@
+C:\Users\Server\PycharmProjects\yolov5\dataset2\images\1.jpg
+C:\Users\Server\PycharmProjects\yolov5\dataset2\images\10.jpg
+C:\Users\Server\PycharmProjects\yolov5\dataset2\images\100.jpg

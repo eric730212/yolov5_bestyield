@@ -1,0 +1,227 @@
+<SimplePopup>
+    id:pop
+    size_hint: .4, .4
+    auto_dismiss: False
+    title: 'PASS!!'
+    Button:
+        text: 'PASS!!'
+        font_size:60
+        background_color:0,1,0,1
+        on_press: pop.dismiss()
+        on_press: app.get_running_app().root.clear()
+        on_press: app.get_running_app().root.save_pic()
+
+<SimplePopup2>
+    id:pop2
+    size_hint: .4, .4
+    auto_dismiss: False
+    title: 'Warning!!'
+    Button:
+        text: 'ReDo!!'
+        font_size:60
+        background_color:1,0,0,1
+        on_press: pop2.dismiss()
+
+<MyDropDown@DropDown>
+    max_height: 300
+    background_color: [0, 0, 1, 1]
+
+<TestLayout>
+    label1:label1
+    label2:label2
+    label3:label3
+    label4:label4
+    label5:label5
+    label6:label6
+    label7:label7
+    label8:label8
+    labelerror:labelerror
+    labelerrorpoint:labelerrorpoint
+    labelsn:labelsn
+    img1:img1
+    img2:img2
+    img3:img3
+    img4:img4
+    img5:img5
+    img6:img6
+    img7:img7
+    img8:img8
+    spinner:spinner
+    button_pic:button_pic
+    button_detect:button_detect
+
+
+    GridLayout:
+        cols:4
+        rows:6
+        size: root.width, root.height
+        Label:
+            id:label1
+            text:'1'
+            size_hint_y:.2
+        Label:
+            id:label2
+            text:'2'
+            size_hint_y:.2
+        Label:
+            id:label3
+            text:'3'
+            size_hint_y:.2
+        Label:
+            text:'SN:'
+            size_hint_y:.2
+#        GridLayout:
+#            size_hint_y:.2
+#            cols:2
+#            Label:
+#                text:'SN:'
+#                size_hint_y:.2
+#            Label:
+#                id:labelsn
+#                text:''
+#                size_hint_y:.2
+#            Label:
+#                text:'xxxxxx'
+#                size_hint_y:.2
+#            Label:
+#                text:'xxxxxx'
+#                size_hint_y:.2
+#            Label:
+#                text:'xxxxxx'
+#                size_hint_y:.2
+#            Label:
+#                text:'xxxxxx'
+#                size_hint_y:.2
+
+
+        Image:
+            id:img1
+            source:'C:/Users/Server/PycharmProjects/yolov5/dataset2/background_pic/b.jpg'
+
+
+        Image:
+            id:img2
+            source:'C:/Users/Server/PycharmProjects/yolov5/dataset2/background_pic/b.jpg'
+
+
+        Image:
+            id:img3
+            source:'C:/Users/Server/PycharmProjects/yolov5/dataset2/background_pic/b.jpg'
+        Label:
+            id:labelsn
+            text:''
+
+#        Button:
+#            text:'Detect'
+#            on_release:root.detect()
+#        Camera:
+#            id: camera
+##            resolution: (640, 480)
+#            play: True
+        Label:
+            id:label4
+            text:'4'
+            size_hint_y:.2
+        Label:
+            id:label5
+            text:'5'
+            size_hint_y:.2
+        Label:
+            id:label6
+            text:'6'
+            size_hint_y:.2
+        Label:
+            text:'Fan Type:'
+            size_hint_y:.2
+
+
+
+#        Camera:
+#            capture: 1
+#            id: camera2
+#            resolution: (640, 480)
+#            play: True
+
+        Image:
+            id:img4
+            source:'C:/Users/Server/PycharmProjects/yolov5/dataset2/background_pic/b.jpg'
+
+
+        Image:
+            id:img5
+            source:'C:/Users/Server/PycharmProjects/yolov5/dataset2/background_pic/b.jpg'
+
+
+        Image:
+            id:img6
+            source:'C:/Users/Server/PycharmProjects/yolov5/dataset2/background_pic/b.jpg'
+        BoxLayout:
+            orientation: "vertical"
+#            size: root.width, root.height
+            Label:
+                text:''
+            Spinner:
+                id:spinner
+                text:'Choose'
+                on_text: root.spinner_clicked(spinner.text)
+                values:['Long','Median','Short','1','2','3','4','5','6','7','8','9','10','Choose']
+                dropdown_cls: 'MyDropDown'
+#                background_color: "#DAA628"
+#                background_down: ""
+#                color: [0,0,1,1]
+#                size_hint: None, None
+#                size: 200, 50
+#                pos_hint:{'center_x':.5, 'top': 1}
+
+        Label:
+            id:label7
+            text:'7'
+            size_hint_y:.2
+        Label:
+            id:label8
+            text:'8'
+            size_hint_y:.2
+        Label:
+            id:labelerrorpoint
+            font_name:'中文'
+            size_hint_y:.2
+        Label:
+            text:''
+            size_hint_y:.2
+        Image:
+            id:img7
+            source:'C:/Users/Server/PycharmProjects/yolov5/dataset2/background_pic/b.jpg'
+
+
+        Image:
+            id:img8
+            source:'C:/Users/Server/PycharmProjects/yolov5/dataset2/background_pic/b.jpg'
+
+        Label:
+            id:labelerror
+            font_name:'中文'
+            font_size:30
+            text: ''
+
+        GridLayout:
+            cols:2
+            size_hint_y:.2
+
+            Button:
+                id:button_pic
+                text:'拍照'
+                font_name:'中文'
+                size_hint_y:.2
+                disabled:True
+#                on_press:label1.color=1,0,0,1
+                on_press:root.click_me()
+                on_release:root.take_pic_kivy()
+
+
+#                on_release:label1.color=1,1,1,1
+            Button:
+                id:button_detect
+                size_hint_y:.2
+                text:'Detect'
+                disabled:True
+                on_release:root.detect()

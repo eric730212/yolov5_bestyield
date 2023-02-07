@@ -1,0 +1,9 @@
+train: C:\Users\Server\PycharmProjects\yolov5\dataset\train.txt
+val: C:\Users\Server\PycharmProjects\yolov5\dataset\val.txt
+
+# number of classes
+nc: 6
+
+# class names
+names: ["Phase1_OK", "Phase1_screw_missing", "Phase1_screw_loose", "Phase1_panel_screw_missing",
+           "Phase1_panel_screw_loose", "Phase1_panel_missing"]
